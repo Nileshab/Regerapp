@@ -334,7 +334,7 @@ try :
             st.error("Sometihng Strange Happened")
 except NameError :
    if uploaded_file == None :
-    img = Image.open("C://Users//niles//Downloads//Streamlit_project//sir.jpeg")
+    # img = Image.open("C://Users//niles//Downloads//Streamlit_project//sir.jpeg")
     image_path = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Sir_Francis_Galton_by_Gustav_Graef.jpg/1200px-Sir_Francis_Galton_by_Gustav_Graef.jpg"
    
     st.image(image_path,caption= " Sir Francis Galton",width = 250)
